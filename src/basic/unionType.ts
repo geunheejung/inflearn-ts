@@ -42,7 +42,16 @@ const introduce = (someone: Person | Developer) => {
 }
 
 const capt: Person = { name: 'capt', age: 100 };
-const tony: Developer = { name: 'tony', skill: 'iron making' };
+const tony: Developer = { 
+  name: 'tony', 
+  skill: 'iron making',
+  coding() {
+    
+  },
+  drink() {
+    
+  },
+};
 
 introduce(capt); // introduce() 함수 내에서 age 프로퍼티 접근 시 에러 발생
 introduce(tony); // introduce() 함수 내에서 skill 프로퍼티 접근 시 에러 발생
