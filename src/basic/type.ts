@@ -17,3 +17,5 @@ const _enum = () => {
 let unuseful: void = undefined; 
 let nullish: null = null;
 const notuse = (): void => { console.log('sth');}
+
+
